@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habesha Brew - Our Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html" class="active">Menu</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+        <h1>Our Coffee & Treats</h1>
+    </header>
+
+    <main>
+        <div class="filter-buttons">
+            <button onclick="filterMenu('all')">Show All</button>
+            <button onclick="filterMenu('coffee')">Coffee</button>
+            <button onclick="filterMenu('food')">Snacks & Food</button>
+        </div>
+
+        <section class="menu-container">
+            <div class="menu-card coffee">
+                <h3>Jebena Buna</h3>
+                <p>Traditional Ethiopian coffee brewed over charcoal in a clay pot.</p>
+                <span class="price">$4.50</span>
+            </div>
+
+            <div class="menu-card coffee">
+                <h3>Yirgacheffe Pour-Over</h3>
+                <p>Single-origin roast with delicate floral and citrus notes.</p>
+                <span class="price">$5.00</span>
+            </div>
+
+            <div class="menu-card food">
+                <h3>Kolo</h3>
+                <p>Traditional roasted barley and peanuts snack mix.</p>
+                <span class="price">$3.00</span>
+            </div>
+
+            <div class="menu-card food">
+                <h3>HimBasha</h3>
+                <p>Slightly sweet, spiced traditional braided bread.</p>
+                <span class="price">$3.50</span>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/menu.js"></script>
+</body>
+</html>
